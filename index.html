@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="upbody">
+      <div class="heroSection">
+        <div class="titleSection">
+          <h1>Visual Gallery</h1>
+          <p>
+            Discover stunning photography and visual art in our curated
+            collection. Search, filter, and explore images that inspire.
+          </p>
+        </div>
+        <div class="searchSection">
+          <div class="inpSection">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input placeholder="Search images by keywords..." />
+          </div>
+          <div class="filterSection">
+            
+            <p><i class="fa-solid fa-filter"></i>Filters:</p>
+            <div >
+              <select
+                title="AllCategories"
+                name="AllCategories"
+                class="option1"
+              >
+                <option value="AllCategories" selected>All Categories</option>
+                <option value="Nature">Nature</option>
+                <option value="Architecture">Architecture</option>
+                <option value="People">People</option>
+                <option value="Animals">Animals</option>
+                <option value="Food">Food</option>
+              </select>
+            </div>
+            <div>
+              <select
+                title="allOrientation"
+                name="allOrientation"
+                class="option1"
+              >
+                <option value="allOrientation" selected>All Orientation</option>
+                <option value="landscape">Landscape</option>
+                <option value="portrait">Portrait</option>
+                <option value="square">Square</option>
+              </select>
+            </div>
+            <div>
+              <select title="allcolors" name="allcolors" class="option1">
+                <option value="allcolors" selected>All Colors</option>
+                <option value="warmTones">Warm Tones</option>
+                <option value="grayTones">Gray Tones</option>
+                <option value="blueTones">Blue Tones</option>
+                <option value="greenTones">Green Tones</option>
+                <option value="brownTones">Brown Tones</option>
+                <option value="orangeTones">Oange Tones</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="imageSection">
+        <div id="img">
+          <img src="assets/005-Sri_Narasimha_Deva_-_1920x1080.jpg" alt="">
+          <p class="imgTitle">ghs hgv </p>
+          <p class="category">ghs hgv </p>
+          <div class="overlay"></div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
